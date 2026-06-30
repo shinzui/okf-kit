@@ -6,6 +6,12 @@
       "description": "Author a new OKF concept document with valid frontmatter, path, links, and a validation check",
       "path": "skills/author-okf-concept",
       "files": ["SKILL.md"]
+    },
+    {
+      "name": "triage-okf-validation",
+      "description": "Triage okf validate failures and propose minimal fixes for an OKF bundle",
+      "path": "skills/triage-okf-validation",
+      "files": ["SKILL.md"]
     }
   ],
   "agents": [

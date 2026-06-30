@@ -13,6 +13,8 @@ installable with `okf kit install <name>`.
 
 - `author-okf-concept`: a skill for authoring a new OKF concept document with valid
   frontmatter, paths, links, and validation.
+- `triage-okf-validation`: a skill for diagnosing `okf validate` failures and making
+  minimal bundle fixes.
 - `okf-guide`: a subagent persona for OKF authoring and validation.
 
 ## Add A Skill
