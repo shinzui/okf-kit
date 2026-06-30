@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "name": "author-okf-concept",
+      "description": "Author a new OKF concept document with valid frontmatter, path, links, and a validation check",
+      "path": "skills/author-okf-concept",
+      "files": ["SKILL.md"]
+    }
+  ],
+  "agents": [
+    {
+      "name": "okf-guide",
+      "description": "An assistant persona for authoring and validating OKF bundles",
+      "path": "agents",
+      "files": ["okf-guide.md"]
+    }
+  ]
+}
