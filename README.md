@@ -23,6 +23,10 @@ Skills:
 - `author-okf-computation`: authoring an `Attested Computation` (v0.2 §10) — the
   five contract keys, the exactly-one-computation rule, and bundle-absolute
   reference paths.
+- `author-okf-capabilities`: authoring a profile-governed capability catalog at
+  `docs/capabilities/` — what a project provides today, one concept per capability
+  with a stable `CAP-N` handle and evidence a reader can open, with the record set
+  shaped by whether the project is a library, framework, tool, or application.
 - `migrate-okf-bundle-to-v0-2`: moving a v0.1 bundle onto v0.2 — `timestamp` into
   `generated`, adopting the new families, and declaring `okf_version` so the
   strict-mode ratchet reports what is left.

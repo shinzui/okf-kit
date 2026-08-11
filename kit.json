@@ -14,6 +14,12 @@
       "files": ["SKILL.md"]
     },
     {
+      "name": "author-okf-capabilities",
+      "description": "Author a profile-governed capability catalog at docs/capabilities describing what a project provides today, shaped by the project's type",
+      "path": "skills/author-okf-capabilities",
+      "files": ["SKILL.md"]
+    },
+    {
       "name": "migrate-okf-bundle-to-v0-2",
       "description": "Migrate an OKF v0.1 bundle to v0.2: timestamp to generated, the new families, and the okf_version declaration",
       "path": "skills/migrate-okf-bundle-to-v0-2",
