@@ -3,13 +3,25 @@
   "skills": [
     {
       "name": "author-okf-concept",
-      "description": "Author a new OKF concept document with valid frontmatter, path, links, and a validation check",
+      "description": "Author a new OKF v0.2 concept document with valid frontmatter, provenance, path, links, and a validation check",
       "path": "skills/author-okf-concept",
       "files": ["SKILL.md"]
     },
     {
+      "name": "author-okf-computation",
+      "description": "Author an OKF v0.2 Attested Computation concept with its five contract keys and the exactly-one-computation rule",
+      "path": "skills/author-okf-computation",
+      "files": ["SKILL.md"]
+    },
+    {
+      "name": "migrate-okf-bundle-to-v0-2",
+      "description": "Migrate an OKF v0.1 bundle to v0.2: timestamp to generated, the new families, and the okf_version declaration",
+      "path": "skills/migrate-okf-bundle-to-v0-2",
+      "files": ["SKILL.md"]
+    },
+    {
       "name": "triage-okf-validation",
-      "description": "Triage okf validate failures and propose minimal fixes for an OKF bundle",
+      "description": "Triage okf validate errors, strict diagnostics, profile deviations, and log advisories, then propose minimal fixes",
       "path": "skills/triage-okf-validation",
       "files": ["SKILL.md"]
     }
@@ -17,7 +29,7 @@
   "agents": [
     {
       "name": "okf-guide",
-      "description": "An assistant persona for authoring and validating OKF bundles",
+      "description": "An assistant persona for authoring, validating, and inspecting OKF v0.2 bundles",
       "path": "agents",
       "files": ["okf-guide.md"]
     }

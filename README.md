@@ -3,6 +3,10 @@
 Reusable AI-agent skills and subagents for [okf](https://github.com/shinzui/okf),
 installable with `okf kit install <name>`.
 
+The items here track **OKF v0.2**, the dialect okf implements. They keep v0.1
+bundles working: `timestamp` is still read wherever `generated` is absent, and no
+skill removes it outside a deliberate migration.
+
 ## Layout
 
 - `kit.json` is the manifest the `okf kit` command reads.
@@ -11,11 +15,23 @@ installable with `okf kit install <name>`.
 
 ## Included Items
 
-- `author-okf-concept`: a skill for authoring a new OKF concept document with valid
-  frontmatter, paths, links, and validation.
-- `triage-okf-validation`: a skill for diagnosing `okf validate` failures and making
-  minimal bundle fixes.
-- `okf-guide`: a subagent persona for OKF authoring and validation.
+Skills:
+
+- `author-okf-concept`: authoring a new concept with valid frontmatter, the
+  optional v0.2 provenance, trust, and lifecycle families, footnote attribution,
+  links, and a validation check.
+- `author-okf-computation`: authoring an `Attested Computation` (v0.2 §10) — the
+  five contract keys, the exactly-one-computation rule, and bundle-absolute
+  reference paths.
+- `migrate-okf-bundle-to-v0-2`: moving a v0.1 bundle onto v0.2 — `timestamp` into
+  `generated`, adopting the new families, and declaring `okf_version` so the
+  strict-mode ratchet reports what is left.
+- `triage-okf-validation`: diagnosing `okf validate` output and making minimal
+  bundle fixes, including which findings are fatal and which are advisory.
+
+Subagents:
+
+- `okf-guide`: a persona for OKF authoring, validation, and inspection.
 
 ## Add A Skill
 
