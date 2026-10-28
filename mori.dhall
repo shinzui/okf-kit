@@ -15,7 +15,8 @@ in  Schema.Project::{
       , domains = [ "Data", "Developer Tooling" ]
       , owners = [ "shinzui" ]
       }
-    , repos = [ Schema.Repo::{ name = "okf-kit", github = Some "shinzui/okf-kit" } ]
+    , repos =
+      [ Schema.Repo::{ name = "okf-kit", github = Some "shinzui/okf-kit" } ]
     , dependencies = [ "shinzui/okf" ]
     , dependencyRefs =
       [ Schema.MoriRef::{ namespace = "shinzui", name = "okf" } ]
@@ -49,6 +50,12 @@ in  Schema.Project::{
         , description =
             "Triage okf validate errors, strict diagnostics, profile deviations, and log advisories, then propose minimal fixes"
         , path = Some "skills/triage-okf-validation"
+        }
+      , Schema.Skill::{
+        , name = "reconcile-okf-requests-and-bugs"
+        , description =
+            "Refresh improvement-request and bug-report statuses and plan links against implementation evidence"
+        , path = Some "skills/reconcile-okf-requests-and-bugs"
         }
       ]
     , subagents =

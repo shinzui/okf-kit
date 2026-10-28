@@ -32,6 +32,10 @@ Skills:
   strict-mode ratchet reports what is left.
 - `triage-okf-validation`: diagnosing `okf validate` output and making minimal
   bundle fixes, including which findings are fatal and which are advisory.
+- `reconcile-okf-requests-and-bugs`: auditing existing improvement requests and bug reports
+  against source, tests, and plans; correcting lifecycle status and plan links;
+  and reporting evidence or registry gaps. For example: "Use reconcile-okf-requests-and-bugs
+  to refresh this repository's improvement requests and bug reports."
 
 Subagents:
 
